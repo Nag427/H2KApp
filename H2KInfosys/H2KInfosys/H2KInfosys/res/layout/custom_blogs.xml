@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   
+  >
+  <ImageView
+      android:id="@+id/ivBullet"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:padding="10dp"
+    android:layout_centerVertical="true"
+    android:src="@drawable/icon3"/>
+  
+  <TextView
+      android:id="@+id/tvBlog"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_toRightOf="@+id/ivBullet"
+    android:layout_centerVertical="true"
+  	android:textColor="#007FFF"
+    android:textStyle="bold"/>
+   
+  <ImageView
+    
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    
+    
+    android:src="@drawable/div2"/>
+    
+  </RelativeLayout>

@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:orientation="vertical"
+     android:background="@drawable/bg"
+     >
+ 
+   
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="10dp"
+    android:src="@drawable/logo"/>
+    
+     <RelativeLayout 
+    		android:layout_width="match_parent"
+   		 	android:layout_height="wrap_content" 
+    		
+    		android:background="@drawable/seo_header">
+    	 		<ImageView
+    	 		    android:id="@+id/ivHome"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:src="@drawable/home"
+   					android:layout_centerVertical="true"
+   					android:layout_marginRight="15dp"
+   					android:layout_alignParentRight="true"
+   			
+   				/>
+    	 		
+    	  		<ImageView
+    	  		    android:id="@+id/ivBack"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+   					android:src="@drawable/back"
+   					android:layout_centerVertical="true"
+   					android:layout_marginLeft="15dp"
+   					android:layout_alignParentLeft="true"
+   			/>
+    	</RelativeLayout>
+    
+ <Button 
+     android:id="@+id/btnContactUs"
+    
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="contact us"
+                android:background="#60B852"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="right"
+ 
+               android:textColor="#ffffff"/>
+ 
+ 
+ <ScrollView 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:orientation="vertical"
+    
+     >
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="We engage your most valuable online markets and lead them to you"
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					android:textStyle="bold"
+   			
+   				/>
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="The quality and quantity of traffic is critical to the success of your online strategy. We establish who and where your most valuable online markets are, because they will be most interested in what you have to offer."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="We then determine the best methods for attracting those markets to you, and interact with them in a way that provokes a response."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+	
+			
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:layout_centerInParent="true"
+   					android:text="SEO Services"
+   					android:textStyle="bold"
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					android:layout_gravity="center_horizontal"
+   			
+   				/>
+	
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   				
+   					android:text="It is a known fact that 80% of traffic to any website, comes through search engines. This tells you that if people cannot find your website at search engines, you are missing 80% of your market regardless of how much effort went into its design."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+			
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   				
+   					android:text="SEM (PPC) Services"
+   					android:textStyle="bold"
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					android:layout_gravity="center_horizontal"
+   			
+   				/>
+			
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="Are you interested in getting more business? Have you tried other company who let you down! Don't worry! Very professional search engine Optimization Company is here to deal with."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+		
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:layout_centerInParent="true"
+   					android:text="Paid traffic can give you quick results and business. You do not need to wait for weeks to getting started. We will be introducing social media marketing very soon which can allow you to get more leads.."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+			
+		
+			    <TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:textColor="#00AAFF"
+    				android:text="We believe in custom plans for each campaign so please contact us for your pay per click solutions."/>
+			    
+				
+			<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:layout_centerInParent="true"
+   					android:text="SMO Services"
+   					android:textStyle="bold"
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					android:layout_gravity="center_horizontal"
+   			
+   				/>
+			
+				<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="Social Media Optimization (SMO) is one of the powerful ways of generating traffic and popularity for a website through social networks, blogging, RSS feeds, Digg, Facebook, Twitter and many other social networking websites. "
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+			
+				<TextView
+    	 		  
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					
+   					android:text="Social Media Optimization also known as Social Media Marketing helps gain online popularity by attractive images and videos to draw the surfer’s attention. Boosting up the website’s popularity and creating awareness with enviable marketing campaigns are among the highlights of Social Media Optimization services."
+   					android:textColor="#000000"
+   					android:padding="5dp"
+   					
+   			
+   				/>
+			
+			</LinearLayout>
+			</ScrollView>
+	
+	<!--   <ExpandableListView
+	     
+            android:id="@+id/expListView"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />	
+             -->
+           
+	 
+     
+
+</LinearLayout>

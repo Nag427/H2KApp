@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Topic wise QA Testing Training Course Details:"
+    android:textSize="15dp"
+    />
+    
+
+
+
+
+
+
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Module 1"
+    android:textSize="15dp"
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 1"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session1"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="	Manual Testing"
+    android:textSize="15dp"
+    />
+      
+     </LinearLayout>
+     </LinearLayout>
+   
+
+
+<!-- 
+session 2 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 2"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session2"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+    
+
+<!-- session3 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 3"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session3"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout> 
+
+
+<!-- session4 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 4"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session4"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+<!-- session 5 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 5"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session5"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+<!-- session 6 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 6"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session6"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+   
+<!-- module 2 -->
+ <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:layout_marginTop="10dp"
+   
+     >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Module 2"
+    android:layout_weight="0.3"
+    android:textSize="15dp"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Quality Center"
+    android:textSize="15dp"
+    android:layout_weight="0.7"
+    />
+     </LinearLayout>
+  
+ 
+ <!-- session 7 -->
+  <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 7"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session7"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>  
+     
+  <!-- session 8 -->
+  <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 8"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session8"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+  <!-- session 9 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 9"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session9"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+<!-- session 10 -->
+
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 10"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session10"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+<!-- module 3 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:layout_marginTop="10dp"
+   
+     >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Module 3"
+    android:layout_weight="0.3"
+    android:textSize="15dp"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Sql"
+    android:textSize="15dp"
+    android:layout_weight="0.7"
+    />
+     </LinearLayout>
+
+
+     
+<!-- session 11 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 11"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session11"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+
+<!-- session 12 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     >
+     <LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:orientation="vertical"
+     >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Session 12"
+    android:textSize="15dp"
+    />
+     
+     
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/layout_session12"
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_weight="0.3" 
+     >
+     
+      
+     </LinearLayout>
+     </LinearLayout>
+     
+<!-- module 4 -->
+<LinearLayout
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.7" 
+    android:layout_marginTop="10dp"
+   
+     >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Module 3"
+    android:layout_weight="0.3"
+    android:textSize="15dp"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="UNIX / Linux Operating System"
+    android:textSize="15dp"
+    android:layout_marginLeft="17dp"
+    android:layout_weight="0.7"
+    />
+     </LinearLayout>
+
+<!-- session 13 -->
+
+     
+
+    </LinearLayout>
+    
+</ScrollView>

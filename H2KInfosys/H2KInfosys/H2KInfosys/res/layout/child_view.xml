@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  
+     android:background="@drawable/courses_bar"
+     >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/icon" />
+     
+	<TextView
+	    android:id="@+id/textBar"
+	    android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:textStyle="bold"
+	    android:textColor="#3BA52F"
+	    android:layout_height="wrap_content"
+	   />
+  
+    
+    
+
+
+</LinearLayout>

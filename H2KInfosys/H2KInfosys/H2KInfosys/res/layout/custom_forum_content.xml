@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/layoutContent"
+         android:layout_width = "fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:background="#E1EBF2"
+       
+        
+         >
+    	  	<TextView 
+    	    android:id="@+id/tvSubject"
+    	    android:layout_width="wrap_content"
+    	    android:text="manish"
+    	    android:textSize ="15dp"
+    	    android:textStyle="bold"
+    	    android:layout_height="wrap_content"
+    	    />
+    	  
+   <LinearLayout
+       android:id="@+id/layoutContent"
+    	  	    android:layout_width="fill_parent"
+    	  	    android:layout_height="wrap_content"
+    	  	    >
+    	  	<TextView 
+    	    android:id="@+id/tvPosterName"
+    	    android:layout_width="wrap_content"
+    	    android:text="manish"
+    	    android:textSize ="15dp"
+    	    
+    	    android:layout_height="wrap_content"
+    	    />
+    	  	<TextView 
+    	    android:id="@+id/tvTime"
+    	    android:layout_width="wrap_content"
+    	    android:text="manish"
+    	    android:textSize ="15dp"
+    	    android:layout_marginLeft="10dp"
+    	    android:layout_height="wrap_content"
+    	    />
+   </LinearLayout>
+   			<TextView 
+    	    android:id="@+id/tvPostText"
+    	    android:layout_width="wrap_content"
+    	    android:text="manish"
+    	    android:textSize ="15dp"
+    	   
+    	    android:layout_height="wrap_content"
+    	    />
+   			</LinearLayout>

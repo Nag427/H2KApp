@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+<ScrollView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content">
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+         	android:layout_height="match_parent"
+    		android:orientation="vertical" 
+    		android:background="@drawable/frame"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginRight="10dp"
+    		android:layout_marginLeft="10dp"
+    		android:layout_marginBottom="10dp"
+    		android:scrollbars="vertical"
+    		>
+    	  		<EditText
+    	  		    android:id="@+id/etFullName"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/full_name_text"
+         			
+         			android:layout_marginTop="15dp"
+         			android:layout_marginLeft="15dp"
+   					android:layout_marginRight="15dp"
+         			android:paddingLeft="10dp"
+         			android:paddingBottom="5dp"         			
+         			android:hint="Full Name"
+         			
+         			/>
+    	  		<EditText
+    	  		    android:id="@+id/etEmail"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/full_name_text"
+         			android:layout_gravity="center_horizontal"
+         			android:layout_marginTop="10dp"
+         			android:layout_marginLeft="15dp"
+   					android:layout_marginRight="15dp"
+         			android:paddingLeft="10dp"
+         			android:paddingBottom="5dp"
+         			android:hint="Email"
+         			
+         			/>
+    	  		<EditText
+    	  		    android:id="@+id/etPhone"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/full_name_text"
+         			
+         			android:layout_marginTop="10dp"
+         			android:layout_marginLeft="15dp"
+         			android:layout_marginRight="15dp"
+         			android:paddingLeft="10dp"
+         			android:paddingBottom="5dp"
+         			android:hint="Phone"
+         			/>
+    	  		<EditText
+    	  		    android:id="@+id/etCountry"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/full_name_text"
+         			
+         			android:paddingLeft="10dp"
+         			android:layout_marginLeft="15dp"
+         			android:layout_marginRight="15dp"
+         			android:layout_marginTop="10dp"
+         			android:paddingBottom="5dp"
+         			android:hint="Country/City"
+         			/>
+    	  		<EditText
+    	  		    android:id="@+id/etCourseName"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/full_name_text"
+         		
+         			android:layout_marginLeft="15dp"
+         			android:layout_marginRight="15dp"
+         			android:paddingLeft="10dp"
+         			android:paddingBottom="5dp"
+         			
+         			android:hint="courses you are interested"
+         			/>
+    	  		
+    	  		<TextView 
+    	  		    android:layout_width="wrap_content"
+    	  		    android:layout_height="wrap_content"
+    	  		    android:layout_marginTop="10dp"
+    	  		    android:textStyle="bold"
+    	  		    android:textColor="#9C9A94"
+    	  		    android:layout_gravity="center_horizontal"
+    	  		    android:text= "how do you know about us" />
+    	  		<Spinner
+    	  		    android:id="@+id/spiFromWhere"
+    	  		    android:layout_width="fill_parent"
+    	  		    android:layout_height="wrap_content"
+    	  		  android:layout_marginLeft="15dp"
+         			android:layout_marginRight="15dp"
+    	  		  
+    	  		    android:layout_marginTop="5dp"
+         			android:paddingLeft="10dp"
+    	  		    android:background="@drawable/drop_down"/>
+    	  		
+    	  		<EditText
+    	  		    android:id="@+id/etMessage"
+    	  		     android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:background="@drawable/your_message"
+         			
+         			android:layout_marginLeft="15dp"
+         			android:layout_marginRight="15dp"
+         			android:paddingLeft="10dp"
+         			android:layout_marginTop="10dp"
+         			android:paddingBottom="5dp"
+         			android:hint="your message...."
+         			/>
+    	  		
+    	  		<Button
+    	  		    android:id="@+id/btnSubmit"
+    	  		    android:layout_width="wrap_content"
+    	  		    android:layout_height="wrap_content"
+    	  		    android:layout_marginTop="30dp"
+    	  		    android:layout_gravity="center_horizontal"
+    	  		    android:layout_marginBottom="40dp"
+    	  		    android:background="@drawable/submit"/>
+    	    
+    	</LinearLayout>
+    	</ScrollView>
+   </LinearLayout>

@@ -1,0 +1,692 @@
+<!doctype html>
+
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6">
+
+<![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7">
+
+<![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8">
+
+<![endif]-->
+<!--[if (gt IE 7)|!(IE)]>
+<!-->
+<html lang="en-us">
+  <!--
+<![endif]-->
+  <head>
+	<meta charset="utf-8">
+  
+  <title>
+    Clean Android UI Template - Inspired by Material & IOS7
+  </title>
+  
+  <meta name="description" content="Thank you for purchasing my template, I really appreciate. Please read the documentation carefully, and if you have any questions, just contact me :)">
+  <meta name="author" content="Sherdle">
+  <meta name="copyright" content="Sherdle">
+  <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+  <meta name="date" content="2014-08-22T00:00:00+02:00">
+  
+  <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+  <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+  <script src="assets/js/google-code-prettify/prettify.js">
+  </script>
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  
+  <script src="assets/js/jquery.js">
+  </script>
+  
+  <script src="assets/js/jquery.scrollTo.js">
+  </script>
+  <script src="assets/js/jquery.easing.js">
+  </script>
+  
+  <script>
+    document.createElement('section');
+    var duration='500',easing='swing';
+  </script>
+  <script src="assets/js/script.js">
+  </script>
+  
+  <style>
+    html{
+      background-color:#FFFFFF;
+      color:#383838;
+    }
+    ::-moz-selection{
+      background:#444444;
+      color:#DDDDDD;
+    }
+    ::selection{
+      background:#444444;
+      color:#DDDDDD;
+    }
+    #documenter_sidebar #documenter_logo{
+      background-image:url(assets/images/image_1.png);
+    }
+    a{
+      color:#0000FF;
+    }
+    .btn {
+      border-radius:3px;
+    }
+    .btn-primary {
+      background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+      background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+      background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+      background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+      background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+      background-image: linear-gradient(top, #0088CC, #0044CC);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+      border-color: #0044CC #0044CC #bfbfbf;
+      color:#FFFFFF;
+    }
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary.active,
+    .btn-primary.disabled,
+    .btn-primary[disabled] {
+      border-color: #0088CC #0088CC #bfbfbf;
+      background-color: #0044CC;
+    }
+    hr{
+      border-top:1px solid #EBEBEB;
+      border-bottom:1px solid #FFFFFF;
+    }
+    #documenter_sidebar, #documenter_sidebar ul a{
+      background-color:#DDDDDD;
+      color:#222222;
+    }
+    #documenter_sidebar ul a{
+      -webkit-text-shadow:1px 1px 0px #EEEEEE;
+      -moz-text-shadow:1px 1px 0px #EEEEEE;
+      text-shadow:1px 1px 0px #EEEEEE;
+    }
+    #documenter_sidebar ul{
+      border-top:1px solid #AAAAAA;
+    }
+    #documenter_sidebar ul a{
+      border-top:1px solid #EEEEEE;
+      border-bottom:1px solid #AAAAAA;
+      color:#444444;
+    }
+    #documenter_sidebar ul a:hover{
+      background:#444444;
+      color:#DDDDDD;
+      border-top:1px solid #444444;
+    }
+    #documenter_sidebar ul a.current{
+      background:#444444;
+      color:#DDDDDD;
+      border-top:1px solid #444444;
+    }
+    #documenter_copyright{
+      display:block !important;
+      visibility:visible !important;
+    }
+  </style>
+  
+  </head>
+  <body class="documenter-project-clean-android-ui-template">
+	<div id="documenter_sidebar">
+      <a href="#documenter_cover" id="documenter_logo">
+      </a>
+      <ul id="documenter_nav">
+        <li>
+          <a class="current" href="#documenter_cover">
+            Start
+          </a>
+        </li>
+        
+        <li>
+          <a href="#welcome" title="Welcome">
+            Welcome
+          </a>
+        </li>
+        <li>
+          <a href="#configuring" title="Configuring">
+            Configuring
+          </a>
+        </li>
+        <li>
+          <a href="#customizing" title="Customizing">
+            Customizing
+          </a>
+        </li>
+        <li>
+          <a href="#custom_views" title="Custom Views">
+            Custom Views
+          </a>
+        </li>
+        <li>
+          <a href="#concluding" title="Concluding">
+            Concluding
+          </a>
+        </li>
+        
+      </ul>
+      <div id="documenter_copyright">
+        Copyright Sherdle 2014
+        <br>
+		made with the 
+          <a href="http://rxa.li/documenter">
+            Documenter v2.0
+          </a>
+          
+      </div>
+  </div>
+  <div id="documenter_content">
+	<section id="documenter_cover">
+      <h1>
+        Clean Android UI Template
+      </h1>
+      <h2>
+        Inspired by Material & IOS7
+      </h2>
+      <div id="documenter_buttons">
+		<a href="http://codecanyon.net/user/sherdleapps" class="btn btn-primary btn-large">
+          CodeCanyon
+      </a>
+      
+      <a href="http://sherdle.com/support/" class="btn btn-large">
+        Support
+      </a>
+      
+      </div>
+      <hr>
+      <ul>
+        <li>
+          created: 08/21/2014
+        </li>
+        <li>
+          latest update: 08/22/2014
+        </li>
+        <li>
+          by: Sherdle
+        </li>
+        <li>
+          <a href="">
+          </a>
+        </li>
+        <li>
+          email: 
+          <a href="mailto:&#99;&#114;&#101;&#119;&#64;&#115;&#104;&#101;&#114;&#100;&#108;&#101;&#46;&#99;&#111;&#109;">
+            &#99;&#114;&#101;&#119;&#64;&#115;&#104;&#101;&#114;&#100;&#108;&#101;&#46;&#99;&#111;&#109;
+          </a>
+        </li>
+      </ul>
+      <p>
+      </p>
+      </section>
+      
+      <section id="welcome">
+        <div class="page-header">
+          <h3>
+            Welcome
+          </h3>
+          <hr class="notop">
+        </div>
+        <p>
+          Again, thank you for purchasing this Template! Let&#39;s have a look at what we&#39;ve got:
+        </p>
+        <ul>
+          <li>
+            Almost 10 Unique UI Elements
+          </li>
+          <li>
+            4 Custom Views
+          </li>
+          <li>
+            3 Unique Animations
+            <br>
+            - &nbsp;Image Focussed Activity Transition
+            <br>
+            - &nbsp;Parallax Scrolling with Fading ActionBar
+            <br>
+            - &nbsp;3D Parallax Navigation
+          </li>
+          <li>
+            4 Predefined Layouts (2x List, 2x DetailActivity)
+          </li>
+        </ul>
+        <p>
+          Since this is an UI Template I&#39;m just going to assume that you&#39;ve at least imported a project to Eclipse before (Why would you buy an UI Template, if you can&#39;t integrate it with another app?). If you do need help with Installing Eclipse etc. feel free to Google it or drop me an Email and I&#39;ll send you instructions.
+        </p>
+        <p>
+          We&#39;ve got a few sections, I&#39;m going to explain something about Configuring, Customizing and using the Custom Views. So import your Template into Eclipse and browse on!
+        </p>
+      </section>
+      <section id="configuring">
+        <div class="page-header">
+          <h3>
+            Configuring
+          </h3>
+          <hr class="notop">
+        </div>
+        <p>
+          If you want to integrate ClearUI with your current application (instead of building your app in the ClearUI project). You should copy the following:
+        </p>
+        <p>
+          What you should copy if you want a quick start:
+        </p>
+        <ul>
+          <li>
+            Every file in RES and all Java files in the .menu and .utils package + all java files that you&#39;re going to use from the main package (predefined layouts).
+          </li>
+          <li>
+            Clean up later with a tool like:&nbsp;https://code.google.com/p/android-unused-resources/,&nbsp;https://github.com/KeepSafe/android-resource-remover
+          </li>
+        </ul>
+        <p>
+          What you should copy if you want to use everything in this kit, or the predefined layouts:
+        </p>
+        <ul>
+          <li>
+            All the java files in the .menu &amp; .utils packages
+          </li>
+          <li>
+            All the java files OR The java files of the layouts that you are planning to use, including Adapters, Parents, etc.
+          </li>
+          <li>
+            All drawables (keep them in the same folders), except the ones that start with ph_
+          </li>
+          <li>
+            All the layout files OR the layouts files that you&#39;re planning to use, including the layout_menu, layout_menu_item and layout_dialog xml files
+          </li>
+          <li>
+            All the content of the values folders (keep them in the same folders).
+          </li>
+          <li>
+            All the content of the anim folders.
+          </li>
+          <li>
+            All the content of the lib folders OR add the libraries manually.
+          </li>
+        </ul>
+        <p>
+          What you should copy if you only want to use parts of this kit:
+        </p>
+        <ul>
+          <li>
+            The content of the .menu package if you want to use the menu
+          </li>
+          <li>
+            The content of the .utils package if you want to use a custom view
+          </li>
+          <li>
+            All the XML content of the drawable folder (recommended) if you want to use the UI Elements
+          </li>
+          <li>
+            The shadow.9.png and title_bar_* files in the drawable-hdpi folder if you want to use the menu
+          </li>
+          <li>
+            The drawable-v14 content if you want to use the UI Elements
+          </li>
+          <li>
+            The (or a) menu_background.png file (in drawable-xhpdi) if you want to use the menu
+          </li>
+          <li>
+            The layout_menu and layout_menu_item files (in res/layout) if you want to use the menu
+          </li>
+          <li>
+            The layout_dialog.xml files (in res/layout) if you want to use the UI Elements
+          </li>
+          <li>
+            The attrs.xml file (in res/values) if you want to use the UI Elements
+          </li>
+          <li>
+            The colors.xml, file (in res/values) &nbsp;(recommended) if you want to use the UI Elements
+          </li>
+          <li>
+            The content of the styles.xml (in res/values) &nbsp;or at least the AppTheme and AppThemeTrans styles.
+          </li>
+          <li>
+            The content of dimens.xml&nbsp;(in res/values)&nbsp;
+          </li>
+          <li>
+            The content &nbsp;of styles.xml (in res/values-v19)&nbsp;
+          </li>
+          <li>
+            All the content of the libs folder OR add the libraries manually.
+          </li>
+        </ul>
+        <p>
+          After you&#39;ve done this, you can start using your components. What is very important is you Theme Color. You can set it in your color.xml file (theme_color). This is the default color for the predefined layouts, and most UI Elements. Of course, you can multiple colors (we&#39;ll talk about that later in these docs), but your theme_color is the one you use most and configuring it will save you time.
+        </p>
+        <p>
+          The 3D Parralax Menu (I&#39;ll be calling it &quot;the Menu&quot; from here on). Will switch Fragments, but it should work with Activities to (you&#39;ll have to perform an Itent instead of 
+          <em>
+            ChangeFragment&nbsp;
+          </em>
+          but this will result in losing your 
+          <em>
+            Close() 
+          </em>
+          animation). Fire up MainActivity.java and have a look at 
+          <em>
+            <span class="s1">
+              private
+            </span>
+            
+            <span class="s1">
+              void
+            </span>
+            setUpMenu()&nbsp;
+          </em>
+        </p>
+        <p>
+          You&#39;ll see a few ways to customize the Menu here. You&#39;ll notice 
+          <em>
+            setHeaderView&nbsp;
+          </em>
+          which will create the FadingActionbar Effect. If you do not want to use this, you should customize the ResideMenu.java and remove associations with&nbsp;
+          <em>
+            headerView.
+          </em>
+        </p>
+        <p>
+          <strong>
+            Initializing the Menu;
+          </strong>
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+resideMenu = new ResideMenu(this);
+resideMenu.setBackground(R.drawable.menu_background);
+resideMenu.attachToActivity(this);
+resideMenu.setShadowVisible(true);
+resideMenu.setHeaderView(findViewById(R.id.actionbar));
+resideMenu.setMenuListener(menuListener);
+ //valid scale factor is between 0.0f and 1.0f. leftmenu'width is 150dip. 
+resideMenu.setScaleValue(0.6f);
+
+itemHome     = new ResideMenuItem(this, R.drawable.ic_home,     "Home");
+itemHome.setOnClickListener(this); //Your activity has to extend onClickListener
+resideMenu.addMenuItem(itemHome);
+</pre>
+  <p>
+	<strong>
+      Opening the Menu;
+    </strong>
+  </p>
+  <pre class="prettyprint lang-plain linenums">
+//Call
+resideMenu.openMenu(ResideMenu.DIRECTION_LEFT);
+//To enable swiping override in your Activity
+@Override
+public boolean dispatchTouchEvent(MotionEvent ev) {
+    return
+    resideMenu.dispatchTouchEvent(ev);
+}
+</pre>
+  <div>
+	That&#39;s really all there is to &quot;Configure&quot;
+  </div>
+      </section>
+      <section id="customizing">
+        <div class="page-header">
+          <h3>
+            Customizing
+          </h3>
+          <hr class="notop">
+        </div>
+        <p>
+          You can customize the UI elements in a few ways: You can change the color, You can reuse them, You can add icons.
+        </p>
+        <p>
+          <strong>
+            Changing the color
+          </strong>
+        </p>
+        <p>
+          There are a 3 ways to change the Color(s) that an UI element appears in, the examples given are just &quot;examples&quot;, I would always recommend at how it is done in our Elements Fragment:
+        </p>
+        <p>
+          1. Change the theme_color in colors.xml (and use a UIButton or UIButtonInverse style attribute). This will be applied to ALL UI Elements
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+&lt;Button
+android:id=&quot;@+id/button1&quot;         
+android:layout_margin=&quot;3dp&quot;         
+android:layout_width=&quot;wrap_content&quot;         
+android:layout_height=&quot;wrap_content&quot;         
+android:text=&quot;@string/button_placeholder_text&quot;         
+style=&quot;@style/UIButton&quot; /&gt;
+
+&lt;Button
+android:id=&quot;@+id/button2&quot;
+android:layout_width=&quot;wrap_content&quot;         
+android:layout_height=&quot;wrap_content&quot;
+android:layout_margin=&quot;3dp&quot;
+android:text=&quot;@string/button_placeholder_text&quot;         
+style=&quot;@style/UIButtonInverse&quot; /&gt;
+</pre>
+        <p>
+          2. Duplicate the drawables (&amp;styles) and change the colors of the duplicates. (I would recommend this if you are using &quot;2 kinds of layouts&quot;. E.g. if you would like to have a blue checkbox and a red checkbox you&#39;d have to copy the following files:
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+//You duplicate the following files, give them a new name (e.g. trottle_red.xml) and change
+//the color references inside the duplicated file (e.g. change theme_color to green).
+//    trottle_active.xml
+//    trottle_xml
+
+//now you should duplicate the &quot;holder&quot; which is checkbox.xml, and give it a new name (e.g.
+//checkbox_red.xml). Now change the the drawable references inside the duplicated file (e.g. 
+//change trottle to trottle_red
+</pre>
+        <p>
+          3. Change the color from code:
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+//Changing the views background color, this will automatically work in both states press as
+//well as non-press. (this is done in the 3th and 4th example button in the Elements fragment). This works best with transparent views.
+ b3.getBackground().setColorFilter(getActivity().getResources().getColor(R.color.green), Mode.MULTIPLY);
+
+        
+ //Set the (pressed) text color of any view without having to modify and duplicate original layout files
+ b3.setTextColor (new ColorStateList (
+        		   new int [] [] {
+        		      new int [] {android.R.attr.state_pressed},
+        		      new int [] {}
+        		   },
+        		   new int [] {
+        			getActivity().getResources().getColor(R.color.green),
+        		      Color.WHITE
+        		   }
+        		));
+        
+ b4.setTextColor (new ColorStateList (
+        		   new int [] [] {
+        		      new int [] {android.R.attr.state_pressed},
+        		      new int [] {}
+        		   },
+        		   new int [] {
+        		      Color.WHITE,
+        		      Color.BLACK
+        		   }
+        		));
+// This will set a different text color on press than when not pressed. If you want to change a Views color in onpress (like
+// you do with the text color). You should change the color filter in the ontouch method.
+</span>
+</pre>
+        <p>
+          <strong>
+            Reusing Items
+          </strong>
+        </p>
+        <p>
+          You can let an LinearLayout act the same as a button. This is convenient if you want to create custom buttons. But this would also apply if you want to create a divider, or other new Element based on current Elements.
+        </p>
+        <p>
+          Check how we do it here:
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+&lt;LinearLayout
+android:id=&quot;@+id/button2&quot;
+style=&quot;@style/UIButtonInverse&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:layout_below=&quot;@+id/comment&quot;
+android:layout_marginLeft=&quot;5dp&quot;
+android:layout_marginTop=&quot;5dp&quot;
+android:clickable=&quot;true&quot;
+android:layout_toRightOf=&quot;@+id/button1&quot; &gt;
+
+&lt;ImageView
+android:id=&quot;@+id/imageView1&quot;
+android:layout_width=&quot;30dp&quot;
+android:layout_height=&quot;25dp&quot;
+android:adjustViewBounds=&quot;true&quot;
+android:paddingBottom=&quot;5dp&quot;
+android:paddingTop=&quot;5dp&quot;
+android:tint=&quot;@color/theme_color&quot;
+android:src=&quot;@drawable/ic_conversation&quot; /&gt;
+
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:layout_marginRight=&quot;5dp&quot;
+android:text=&quot;@string/reply&quot;
+android:textColor=&quot;@drawable/button_selector_text&quot; /&gt;
+
+&lt;/LinearLayout&gt;
+</pre>
+        <p>
+          <strong>
+            Adding icons
+          </strong>
+        </p>
+        <p>
+          In most cases, I would prefer adding icons to buttons using &quot;Reusing Items&quot;. But in some cases, like a textEdit, it would be easier to just use a compoundDrawable.
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+&lt;EditText
+android:id=&quot;@+id/editText1&quot;
+android:padding=&quot;5dp&quot;
+android:layout_margin=&quot;5dp&quot;
+android:background=&quot;@drawable/tab_default&quot;
+android:textColor=&quot;@color/theme_color&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:hint=&quot;@string/text_input_hint&quot;
+android:drawableLeft=&quot;@android:drawable/ic_menu_search&quot;
+android:ems=&quot;10&quot; &gt;
+&lt;/EditText&gt;
+</pre>
+        <p>
+          It is important to use different sized drawables, otherwise, you might end up with very large or small drawables.
+        </p>
+      </section>
+      <section id="custom_views">
+        <div class="page-header">
+          <h3>
+            Custom Views
+          </h3>
+          <hr class="notop">
+        </div>
+        <p>
+          Using custom Views is very easy. You just have to load a few schemas in your layout before you can use them. Let&#39;s have a look at how that is done:
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+&lt;ScrollView   xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:layout_width=&quot;match_parent&quot;
+tools:context=&quot;com.special.MenuActivity$ProfileFragment&quot;
+android:background=&quot;@android:color/white&quot;
+android:layout_height=&quot;match_parent&quot;&gt;
+</pre>
+        <p>
+          As you can see, we need to load xmlns:app, xmlns:tools, and tools:context. tools:context will basically be the &quot;path&quot; to your activity or fragment (check how it is done above in case of a fragment).
+        </p>
+        <p>
+          I&#39;m not going to show you how to use all Custom Views, since you can see how they are used in their respective layouts.
+        </p>
+        <blockquote>
+          <p>
+            <b>UIParallaxScroll</b><br>
+            activity_detail.xml AND (requires java code if you want fading header) DetailActivity.java
+          </p>
+          <p>
+            <b>UITabs</b><br>
+            activity_detail_transition AND (if you want a listener example) TransitionDetailActivity.java
+          </p>
+        </blockquote>
+        <blockquote>
+          <p>
+            <b>UISwipable List</b><br>
+            fragment_list_item_transition.xml and fragment_list_transition.xml AND (requires java code for configuring) TransitionDetailAdapter.java (setting hidden view) and TransitionListFragment.java
+          </p>
+        </blockquote>
+        <blockquote>
+          <p>
+            Requires:
+          </p>
+        </blockquote>
+        <blockquote>
+          <pre class="prettyprint lang-plain linenums">
+setActionLayout(Hidden View)
+setItemLayout(Front View)
+setIgnoredViewHandler() //optionally, this will prevent opening the menu when sliding the list. 
+</pre>
+        </blockquote>
+        <p class="p1">
+          <b>UICircularImage</b><br>
+          I&#39;m going to give an XML example for this one:
+        </p>
+        <pre class="prettyprint lang-plain linenums">
+&lt;com.special.utils.UICircularImage
+android:id=&quot;@+id/rounded_image&quot;
+android:layout_margin=&quot;5dp&quot;
+android:layout_width=&quot;75dp&quot;
+android:layout_height=&quot;75dp&quot;
+android:src=&quot;@drawable/ic_trashcan&quot;
+android:padding=&quot;10dp&quot;
+app:line_width=&quot;1dp&quot;
+app:padding=&quot;20dp&quot;
+app:line_color_press=&quot;@color/green&quot;
+app:line_color=&quot;@color/theme_color&quot;/&gt;
+</pre>
+        <p>
+          As you can see, when using a custom view, the tag you use is the &quot;path&quot; to the Java class (file). UICircularImage features a few custom classes. including line_width, padding (normal padding wont work), line_color_press and line_color. I think the names clarify what each attribute does. If you&#39;d like to set a OnClickListener like you would normally do, for an example, check the TransitionDetailActivity
+        </p>
+      </section>
+      <section id="concluding">
+        <div class="page-header">
+          <h3>
+            Concluding
+          </h3>
+          <hr class="notop">
+        </div>
+        <p>
+          <strong>Error Solving</strong><br>
+          If you&#39;re busy integrating, you might run into some errors. Layout colors might not match, or infating custom views might cause trouble. I&#39;d like to ask you to Google you error first. Most times, it can be solved easily.
+        </p>
+        <p>
+          Also, if partially copying and pasting files to your own project does not work. I would recommend stripping down my example layouts to the parts that you want to use, and use those as a base for you application.&nbsp;
+        </p>
+        <p>
+          If you really get stuck, feel free to email me, or check our support community at sherdle.com/support. Please do not ask questions about customization (E.g. I would like to have the layout also do this and this, I would like to have this and this effect, I was customizing and got this problem/error...).&nbsp;
+        </p>
+        <p>
+          <strong>
+            License
+          </strong><br>
+          All license files can be found the LICENSE file in the root of your project. I&#39;ve only used licenses that enable you, the customer, the use in the end application. The ph_ &amp; ic_ images are not a part of what you&#39;ve bought, but there only for clarification of what the template could be used for. You&#39;re free to use them though, since they are publicly available.
+        </p>
+        <p>
+        	<strong>Performance</strong><br>
+	         As you might notice, if you use the current listview setup 'as-is' (for images), the 'smoothness' might be below average, for this reason, you should extend the adapter yourself and create your own Bitmap Loaders or use a library.
+         <p>
+            <strong>Improvement</strong><br>
+             I tried to post a lot of helpfull information in these docs, if you&#39;ve got any suggestions of something you&#39;d like to see here, or if you had a hard time finding out how something worked, let me know! And I&#39;ll see if I can update the docs or the template!
+         </p>
+      </section>
+      
+  </div>
+  </body>
+</html>

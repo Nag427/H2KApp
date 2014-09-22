@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+   >
+   <LinearLayout
+    android:id="@+id/layoutCourses"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="10dp"
+    android:src="@drawable/logo"/>
+    
+     <RelativeLayout 
+    		android:layout_width="match_parent"
+   		 	android:layout_height="wrap_content" 
+    		
+    		android:background="@drawable/bar">
+    	 		<ImageView
+    	 		    android:id="@+id/ivHome"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:src="@drawable/home"
+   					android:layout_centerVertical="true"
+   					android:layout_marginRight="15dp"
+   					android:layout_alignParentRight="true"
+   			
+   				/>
+
+    	 		<TextView
+    	 		    android:id="@+id/tvHeading"
+    	 		    android:layout_width="wrap_content"
+    	 		    android:layout_height="wrap_content"
+    	 		    android:layout_centerVertical="true"
+    	 		    android:layout_centerHorizontal="true"
+    	 		    android:layout_marginRight="68dp"
+    	 		    android:layout_marginLeft="68dp"
+    	 		  
+    	 		    android:textColor="#ffffff"
+    	 		    android:textSize="15dp"
+    	 		    android:textStyle="bold" />
+
+    	  		<ImageView
+    	  		    android:id="@+id/ivBack"
+    				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+   					android:src="@drawable/back"
+   					android:layout_centerVertical="true"
+   					android:layout_marginLeft="15dp"
+   					android:layout_alignParentLeft="true"
+   			
+   			/>
+    	</RelativeLayout>
+    	</LinearLayout>
+   <ScrollView
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+       >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView 
+        android:id="@+id/tvName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="#70BF65"
+        android:padding="5dp"
+        android:textStyle ="bold"
+        android:text="QA texting"
+        />
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tvName">
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutContent"
+        android:orientation="vertical">
+    <Button 
+        android:id="@+id/btnCourseHighlights"
+        android:layout_width="fill_parent"
+    android:layout_height="40dp"
+   
+    android:background="@drawable/course"
+    android:layout_marginTop="10dp"
+    />
+    
+    
+    <Button 
+        android:id="@+id/btnDemo"
+        android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    
+    android:textColor="#ffffff"
+    android:background="@drawable/request"
+    android:layout_marginTop="5dp"
+   />
+    
+    <Button 
+        android:id="@+id/btnSyllabus"
+        android:layout_width="fill_parent"
+    android:layout_height="40dp"
+   
+    android:background="@drawable/course1"
+    android:layout_marginTop="10dp"
+  />
+    </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+    </LinearLayout>

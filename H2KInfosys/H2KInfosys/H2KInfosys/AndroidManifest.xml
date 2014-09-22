@@ -1,0 +1,90 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.h2kinfosys.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/iconn"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".OnlineTrainingActivity"
+            android:label="@string/title_activity_home"/>
+          <activity
+            android:name=".SubForumsActivity"></activity>
+          
+          <activity
+            android:name=".Syllabus"></activity>
+            <activity
+            android:name=".SyllabusOne"></activity>
+            <activity
+            android:name=".SoftwareDevelopment"></activity>
+           <activity
+            android:name=".CoursesDetails"></activity>
+           <activity
+            android:name=".PlayVideo"
+            android:screenOrientation ="portrait"></activity>
+           <activity
+            android:name=".JobList"></activity>
+         <activity
+            android:name=".SeoActivity"
+            android:label="@string/title_activity_home"/>
+          <activity
+            android:name=".ForumContent"
+            android:label="@string/title_activity_home"/>
+          <activity
+            android:name=".H2kinfosys"
+            android:label="@string/title_activity_home"/>
+          
+          
+            <activity
+            android:name=".CoursesHighlights"
+            android:label="@string/title_activity_home"/>
+             <activity
+            android:name=".CoursesHighlightsOther"
+            android:label="@string/title_activity_home"/>
+          <activity
+            android:name=".CoursesActivity"
+            android:label="@string/title_activity_home"/>
+         <activity
+            android:name=".Blogs"
+            android:label="@string/title_activity_home"/>
+        <activity
+            android:name=".TrainingCoursesActivity"
+            android:label="@string/title_activity_home"/> 
+            
+         <activity
+            android:name=".VideosActivity"
+            android:label="@string/title_activity_home"/> 
+             <activity
+            android:name=".BlogTitles"
+            android:label="@string/title_activity_home"/> 
+            
+              <activity
+                  
+            android:name=".ForumsActivity"/> 
+            <activity  android:name=".ContactFormActivity"/> 
+            <activity  android:name=".ItJobsActivity"/> 
+            <activity
+                  
+            android:name=".BlogsActivity"
+            android:label="@string/title_activity_home"/> 
+            
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
